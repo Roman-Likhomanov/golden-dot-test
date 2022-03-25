@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/golden-dot-test/static/css/main.76f258fe.css",
+    "main.js": "/golden-dot-test/static/js/main.4b1f01bc.js",
+    "index.html": "/golden-dot-test/index.html",
+    "main.76f258fe.css.map": "/golden-dot-test/static/css/main.76f258fe.css.map",
+    "main.4b1f01bc.js.map": "/golden-dot-test/static/js/main.4b1f01bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76f258fe.css",
+    "static/js/main.4b1f01bc.js"
+  ]
+}
