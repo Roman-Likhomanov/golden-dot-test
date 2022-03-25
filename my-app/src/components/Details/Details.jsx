@@ -69,7 +69,7 @@ const Details = ({ courseDetails }) => {
     }, [url3]);
 
     let valute3 = objDay3['Valute'];
-    let value3 = valute3 && valute3[charCode] ? (valute3[charCode]['Value']).toFixed(2) : null;
+    let value3 = valute3 && valute3[charCode] ? valute3[charCode]['Value'] : null;
     let valueFix3 = valute3 && valute3[charCode] ? (valute3[charCode]['Value']).toFixed(2) : null;
     let previous3 = valute3 && valute3[charCode] ? valute3[charCode]['Previous'] : null;
     let url4 = objDay3.PreviousURL;
@@ -91,7 +91,7 @@ const Details = ({ courseDetails }) => {
     }, [url4]);
 
     let valute4 = objDay4['Valute'];
-    let value4 = valute4 && valute4[charCode] ? (valute4[charCode]['Value']).toFixed(2) : null;
+    let value4 = valute4 && valute4[charCode] ? valute4[charCode]['Value'] : null;
     let valueFix4 = valute4 && valute4[charCode] ? (valute4[charCode]['Value']).toFixed(2) : null;
     let previous4 = valute4 && valute4[charCode] ? valute4[charCode]['Previous'] : null;
     let url5 = objDay4.PreviousURL;
@@ -112,7 +112,7 @@ const Details = ({ courseDetails }) => {
     }, [url5]);
 
     let valute5 = objDay5['Valute'];
-    let value5 = valute5 && valute5[charCode] ? (valute5[charCode]['Value']).toFixed(2) : null;
+    let value5 = valute5 && valute5[charCode] ? valute5[charCode]['Value'] : null;
     let valueFix5 = valute5 && valute5[charCode] ? (valute5[charCode]['Value']).toFixed(2) : null;
     let previous5 = valute5 && valute5[charCode] ? valute5[charCode]['Previous'] : null;
     let url6 = objDay5.PreviousURL;
@@ -134,7 +134,7 @@ const Details = ({ courseDetails }) => {
     }, [url6]);
 
     let valute6 = objDay6['Valute'];
-    let value6 = valute6 && valute6[charCode] ? (valute6[charCode]['Value']).toFixed(2) : null;
+    let value6 = valute6 && valute6[charCode] ? valute6[charCode]['Value'] : null;
     let valueFix6 = valute6 && valute6[charCode] ? (valute6[charCode]['Value']).toFixed(2) : null;
     let previous6 = valute6 && valute6[charCode] ? valute6[charCode]['Previous'] : null;
     let url7 = objDay6.PreviousURL;
@@ -156,7 +156,7 @@ const Details = ({ courseDetails }) => {
     }, [url7]);
 
     let valute7 = objDay7['Valute'];
-    let value7 = valute7 && valute7[charCode] ? (valute7[charCode]['Value']).toFixed(2) : null;
+    let value7 = valute7 && valute7[charCode] ? valute7[charCode]['Value'] : null;
     let valueFix7 = valute7 && valute7[charCode] ? (valute7[charCode]['Value']).toFixed(2) : null;
     let previous7 = valute7 && valute7[charCode] ? valute7[charCode]['Previous'] : null;
     let url8 = objDay7.PreviousURL;
@@ -178,7 +178,7 @@ const Details = ({ courseDetails }) => {
     }, [url8]);
 
     let valute8 = objDay8['Valute'];
-    let value8 = valute8 && valute8[charCode] ? (valute8[charCode]['Value']).toFixed(2) : null;
+    let value8 = valute8 && valute8[charCode] ? valute8[charCode]['Value'] : null;
     let valueFix8 = valute8 && valute8[charCode] ? (valute8[charCode]['Value']).toFixed(2) : null;
     let previous8 = valute8 && valute8[charCode] ? valute8[charCode]['Previous'] : null;
     let url9 = objDay8.PreviousURL;
@@ -200,7 +200,7 @@ const Details = ({ courseDetails }) => {
     }, [url9]);
 
     let valute9 = objDay9['Valute'];
-    let value9 = valute9 && valute9[charCode] ? (valute9[charCode]['Value']).toFixed(2) : null;
+    let value9 = valute9 && valute9[charCode] ? valute9[charCode]['Value'] : null;
     let valueFix9 = valute9 && valute9[charCode] ? (valute9[charCode]['Value']).toFixed(2) : null;
     let previous9 = valute9 && valute9[charCode] ? valute9[charCode]['Previous'] : null;
     let url10 = objDay9.PreviousURL;
@@ -222,7 +222,7 @@ const Details = ({ courseDetails }) => {
     }, [url10]);
 
     let valute10 = objDay10['Valute'];
-    let value10 = valute10 && valute10[charCode] ? (valute10[charCode]['Value']).toFixed(2) : null;
+    let value10 = valute10 && valute10[charCode] ? valute10[charCode]['Value'] : null;
     let valueFix10 = valute10 && valute10[charCode] ? (valute10[charCode]['Value']).toFixed(2) : null;
     let previous10 = valute10 && valute10[charCode] ? valute10[charCode]['Previous'] : null;
     let correctDate10 = () => {
@@ -253,47 +253,47 @@ const Details = ({ courseDetails }) => {
                     </tr>
                     <tr>
                         <td>{correctDate2()}</td>
-                        <td>{value2}</td>
+                        <td>{valueFix2}</td>
                         <td>{getDifference2().toFixed(2)}</td>
                     </tr>
                     <tr>
                         <td>{correctDate3()}</td>
-                        <td>{value3}</td>
+                        <td>{valueFix3}</td>
                         <td>{getDifference3().toFixed(2)}</td>
                     </tr>
                     <tr>
                         <td>{correctDate4()}</td>
-                        <td>{value4}</td>
+                        <td>{valueFix4}</td>
                         <td>{getDifference4().toFixed(2)}</td>
                     </tr>
                     <tr>
                         <td>{correctDate5()}</td>
-                        <td>{value5}</td>
+                        <td>{valueFix5}</td>
                         <td>{getDifference5().toFixed(2)}</td>
                     </tr>
                     <tr>
                         <td>{correctDate6()}</td>
-                        <td>{value6}</td>
+                        <td>{valueFix6}</td>
                         <td>{getDifference6().toFixed(2)}</td>
                     </tr>
                     <tr>
                         <td>{correctDate7()}</td>
-                        <td>{value7}</td>
+                        <td>{valueFix7}</td>
                         <td>{getDifference7().toFixed(2)}</td>
                     </tr>
                     <tr>
                         <td>{correctDate8()}</td>
-                        <td>{value8}</td>
+                        <td>{valueFix8}</td>
                         <td>{getDifference8().toFixed(2)}</td>
                     </tr>
                     <tr>
                         <td>{correctDate9()}</td>
-                        <td>{value9}</td>
+                        <td>{valueFix9}</td>
                         <td>{getDifference9().toFixed(2)}</td>
                     </tr>
                     <tr>
                         <td>{correctDate10()}</td>
-                        <td>{value10}</td>
+                        <td>{valueFix10}</td>
                         <td>{getDifference10().toFixed(2)}</td>
                     </tr>
                 </tbody>
