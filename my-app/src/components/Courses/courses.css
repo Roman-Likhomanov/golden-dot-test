@@ -1,0 +1,55 @@
+body {
+	background-color: #F7F7F7;	
+}
+
+.container {
+	padding: 12px 12px 12px 27px;
+	line-height: 16px;
+	font-size: 12px;
+	color: gray;
+}
+
+.table {
+	width:60%;
+	border-collapse: separate;
+	background-color: #FFFFFF;
+	border-spacing: 0px 0px;
+	border-radius: 7px;
+}
+
+.table thead {
+	height: 30px;
+}
+
+.table thead th {
+width: 20%;
+}
+
+.table tbody td {
+	border-top: 1px solid #dddddd;
+	padding: 0px;
+	vertical-align: bottom;
+	height: 30px;
+	text-align: center;
+}
+
+.table tbody tr:hover,
+.table tbody tr:focus{
+    background-color: #d9ebfc;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
